@@ -74,7 +74,7 @@
       "textAlignment": "center",
       "blockClass": "metal"
       }
-  },
+  }/*,
 
   "shelf": {
     "blocks": ["product-summary.shelf"],
@@ -103,5 +103,5 @@
       "product-identifier.summary",
       "product-summary-buy-button"
     ]
-  }
+  }*/
 }
