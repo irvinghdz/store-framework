@@ -32,15 +32,15 @@
     }
   },
   "menu-item#refrigerators": {
-      "props":
-    {
-      "type": "category",
-      "highlight": true,
-      "itemProps": {
-        "categoryId": 4, 
-        "text": "Refrigerators"
-      }
-    }
+      "props":{
+        "type": "category",
+        "highlight": true,
+        "itemProps": {
+          "categoryId": 4, 
+          "text": "Refrigerators"
+        }
+      },
+      "blocks" : ["vtex.menu@2.x:submenu#electronics"]
   },
   "menu-item#ovens": {
       "props":
