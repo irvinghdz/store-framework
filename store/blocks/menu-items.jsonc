@@ -29,7 +29,8 @@
         "categoryId": 3, 
         "text": "Electronics"
       }
-    }
+    },
+    "blocks" : ["vtex.menu@2.x:submenu#electronics"]
   },
   "menu-item#refrigerators": {
       "props":{
@@ -39,8 +40,7 @@
           "categoryId": 4, 
           "text": "Refrigerators"
         }
-      },
-      "blocks" : ["vtex.menu@2.x:submenu#electronics"]
+      }
   },
   "menu-item#ovens": {
       "props":
