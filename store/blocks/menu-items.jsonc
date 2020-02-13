@@ -5,7 +5,8 @@
       "highlight": true,
       "itemProps": {
         "text": "Major Aplliances"
-      }
+      },
+      "blocks" : ["menu-item#major-appliances"]
     }
   },
   "menu-item#small-appliances": {
@@ -14,7 +15,7 @@
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 2, 
+        "categoryId": 2,
         "text": "Small Appliances"
       }
     }

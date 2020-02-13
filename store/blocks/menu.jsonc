@@ -1,6 +1,6 @@
 {
     "vtex.menu@2.x:menu#categories": {
-      "children": [
+        "children": [
             "menu-item#major-appliances",
             "menu-item#small-appliances",
             "menu-item#electronics"
@@ -8,9 +8,6 @@
         "props":{
             "orientation": "horizontal"
         }
-    }, 
-    "menu-item#major-appliances" : {
-        "blocks" :  ["vtex.menu@2.x:submenu#major"]
     },
     "vtex.menu@2.x:submenu#major":{
         "children":[
@@ -28,9 +25,9 @@
         }
     },
     "vtex.menu@2.x:submenu#small":{
-        "children":[
+            "children":[ 
             "vtex.menu@2.x:menu#small"
-        ]
+            ]
     },
     "vtex.menu@2.x:menu#small": {
         "children": [
@@ -42,7 +39,12 @@
             "orientation": "vertical"
         }
     },
-    "vtex.menu@2.x:submenu#electronics" : {
+    "vtex.menu@2.x:submenu#electronics":{
+        "children":[
+            "vtex.menu@2.x:menu#electronics"
+        ]
+    },
+    "vtex.menu@2.x:menu#electronics": {
         "children": [
             "menu-item#cameras",
             "menu-item#laptops",
